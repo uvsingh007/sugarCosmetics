@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dela+Gothic+One&family=Open+Sans&family=Pacifico&family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dela+Gothic+One&family=Open+Sans&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+#headSearch{
+    padding: 0.5% 7%;
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 15%;
+}
+#searchButton{
+    cursor: pointer;
+    padding: 0.5%;
+    background-color: white;
+    color: black;
+    border: none;
+}
+nav ul{
+    background-color: black;  
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    padding: 20px;
+}
+nav ul li{
+    color: white;
+    display: inline-block;
+}
+.firstSection{
+    position: relative;
+    background: url("./sports.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 5%;
+}
+form{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    background-color: white;
+    width: 25%;
+    padding:3% 3%;
+    font-family: 'Pacifico', cursive;
+}
+form div{
+    padding: 10px;
+}
+#formButton{
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+}
+.secondSection{
+    text-align: center;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+video{
+    margin-top: 30px;
+}
+table{
+    width: 100%;
+    margin-bottom: 50px;
+}
+td,th{
+    padding: 5px;
+}
+.paracenter{
+    text-align: center;
+}
+table tbody tr:nth-child(even){
+    background-color: teal;
+}
+table thead{
+    background-color:darkgrey;
+}
+tr:last-child{
+    background-color: lightgray;
+}
+footer{
+    background-color: lightgray;
+    text-align: center;
+}
+.stars{
+    padding: 10px;
+}
+div ul li{
+    display: inline-block;
+    padding: 7px;
+}
+.info{
+    padding: 2%;
+    text-align: left;
+    margin-left: 5%;
+}
+.bottomNav{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bottomNav div p{
+    padding:5px;
+}
+i{
+    font-size: 20px;
+}

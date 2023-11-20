@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML and CSS</title>
+    <link rel="icon" href="./heart.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="./sugar.gif"/>
+        <input id="headSearch"></input>
+        <button id="searchButton">Search</button>
+    </header>
+    <nav>
+        <ul>
+            <li>LIPS</li>
+            <li>EYES</li>
+            <li>FACE</li>
+            <li>NAILS</li>
+            <li>ACCESSORIES</li>
+            <li>GIFTS & KITS</li>
+            <li>BESTSELLERS</li>
+            <li>NEW LAUNCHES</li>
+            <li>OFFERS</li>
+            <li>BLOGS</li>
+        </ul>
+    </nav>
+    <section class="firstSection">
+        <form>
+            <label for="name">Enter your name: </label>
+            <input type="text" id="name" name="name" required/></br></br>
+            <label for="email">Enter your email: </label>
+            <input type="email" id="email" name="email" required/></br></br>
+            <label for="pet-select">Choose a pet: </label>
+            <select>
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select></br></br>
+            <fieldset>
+                <legend>Select a maintenance drone</legend>
+                <div>
+                    <input type="radio" id="huey" name="drone" value="huey" checked />
+                    <label for="huey">Huey</label>
+                  </div>
+                
+                  <div>
+                    <input type="radio" id="dewey" name="drone" value="dewey" />
+                    <label for="dewey">Dewey</label>
+                  </div>
+                
+                  <div>
+                    <input type="radio" id="louie" name="drone" value="louie" />
+                    <label for="louie">Louie</label>
+                  </div>
+            </fieldset></br>
+            <label for="appointment">Choose a time for your appointment: </label></br>
+            <input type="date" id="appointment" min="2023-11-10" max="2023-11-30"/></br></br>
+            <button id="formButton" type="submit">Subscribe!</button>
+        </form>
+    </section>
+    <section class="secondSection">
+        <h1>Flower Video</h1>
+        <video src="./flower.webm" controls></video>
+    </section>
+    <section>
+        <p class="paracenter">The first table</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Lime</th>
+                    <th>Knocky</th>
+                    <th>Flor</th>
+                    <th>Ella</th>
+                    <th>Juan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Breed</td>
+                    <td>Jack Russell</td>
+                    <td>Poddle</td>
+                    <td>Streetdog</td>
+                    <td>Cocker Spaniel</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>16</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Owner</td>
+                    <td>Mother-in-law</td>
+                    <td>Me</td>
+                    <td>Me</td>
+                    <td>Sister-in-law</td>
+                </tr>
+                <tr>
+                    <td>Eating Habits</td>
+                    <td>Eats everyone</td>
+                    <td>Nibbles at food</td>
+                    <td>Hearty eater</td>
+                    <td>will eat tills</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Total</td>
+                    <td>40</th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <div class="stars">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <hr>
+        <div>
+            <ul>
+                <li>Stores</li>
+                <li>Elite</li>
+                <li>Terms & Conditions</li>
+                <li>Returns</li>   
+                <li>FAQs</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="info">
+            <h2>Get in Touch</h2>
+            <div class="bottomNav">
+                <div>
+                    <p>Instagram : <i class="fa-brands fa-instagram"></i></p>
+                    <p>Facebook :  <i class="fa-brands fa-facebook"></i></p>
+                </div>
+                <div>
+                    <p>Support</p>
+                    <p>hello@sugarcosmetics.com</p>
+                </div>
+                <div>
+                    <p>Careers</p>
+                    <p>We're hiring!</p>
+                </div>
+                <div>
+                    <p>Press & Media</p>
+                    <p>pr@sugarcosmetics.com</p>
+                </div>
+                <div>
+                    <p>Influencers Collab</p>
+                    <p>Join Us</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
